@@ -17,5 +17,5 @@ if status is-interactive
     end
 
     ## fastfetch 실행
-    fastfetch --logo ~/.config/fastfetch/imgs/gosegu.png --logo-width 45 --logo-type kitty
+    fastfetch --logo ~/.config/fastfetch/imgs/gosegu.png --logo-width 45 --logo-type kitty-direct
 end
