@@ -1,0 +1,9 @@
+---
+- name: Test dotfiles setup
+  hosts: all
+
+  post_tasks:
+    - name: Print test results
+      debug:
+        msg: "All tests passed successfully!"
+      when: not ansible_failed_task

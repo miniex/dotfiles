@@ -1,0 +1,10 @@
+all:
+  children:
+    korean:
+      hosts:
+        korean_host:
+          ansible_connection: local
+    english:
+      hosts:
+        english_host:
+          ansible_connection: local
